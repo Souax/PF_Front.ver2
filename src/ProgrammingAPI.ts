@@ -1,6 +1,7 @@
 import { ApiResponse } from "../types/types";
 
 /* JavaScriptの取得 */
+/*
 export const getJavaScriptBooks = async (
   page: number = 1
 ): Promise<ApiResponse> => {
@@ -13,8 +14,9 @@ export const getJavaScriptBooks = async (
   const javascriptbooks = await res.json();
   return javascriptbooks;
 };
+*/
 
-/* TypeScriptの取得 */
+/* TypeScriptの取得 
 export const getTypeScriptBooks = async (
   page: number = 1
 ): Promise<ApiResponse> => {
@@ -28,7 +30,7 @@ export const getTypeScriptBooks = async (
   return typescriptbooks;
 };
 
-/* Javaの取得 */
+/* Javaの取得 
 export const getJavaBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/v1/java?page=${page}`,
@@ -40,7 +42,7 @@ export const getJavaBooks = async (page: number = 1): Promise<ApiResponse> => {
   return javabooks;
 };
 
-/* Rubyの取得 */
+/* Rubyの取得 
 export const getRubyBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/v1/ruby?page=${page}`,
@@ -52,7 +54,7 @@ export const getRubyBooks = async (page: number = 1): Promise<ApiResponse> => {
   return rubybooks;
 };
 
-/* Pythonの取得 */
+/* Pythonの取得 
 export const getPythonBooks = async (
   page: number = 1
 ): Promise<ApiResponse> => {
@@ -66,7 +68,7 @@ export const getPythonBooks = async (
   return pythonbooks;
 };
 
-/* Goの取得 */
+/* Goの取得 
 export const getGoBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/v1/go?page=${page}`,
@@ -78,7 +80,7 @@ export const getGoBooks = async (page: number = 1): Promise<ApiResponse> => {
   return gobooks;
 };
 
-/* PHPの取得 */
+/* PHPの取得 
 export const getPhpBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/v1/php?page=${page}`,
@@ -90,7 +92,7 @@ export const getPhpBooks = async (page: number = 1): Promise<ApiResponse> => {
   return phpbooks;
 };
 
-/* Reactの取得 */
+/* Reactの取得 
 export const getReactBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/v1/react?page=${page}`,
@@ -102,7 +104,7 @@ export const getReactBooks = async (page: number = 1): Promise<ApiResponse> => {
   return reactbooks;
 };
 
-/* Vueの取得 */
+/* Vueの取得 
 export const getVueBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/v1/vue?page=${page}`,
@@ -114,7 +116,7 @@ export const getVueBooks = async (page: number = 1): Promise<ApiResponse> => {
   return vuebooks;
 };
 
-/* Next.jsの取得 */
+/* Next.jsの取得 
 export const getNextBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/v1/nextjs?page=${page}`,
@@ -126,7 +128,7 @@ export const getNextBooks = async (page: number = 1): Promise<ApiResponse> => {
   return nextbooks;
 };
 
-/* Nuxt.jsの取得 */
+/* Nuxt.jsの取得 
 export const getNuxtBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/v1/nuxtjs?page=${page}`,
@@ -138,7 +140,7 @@ export const getNuxtBooks = async (page: number = 1): Promise<ApiResponse> => {
   return nuxtbooks;
 };
 
-/* Laravelの取得 */
+/* Laravelの取得 
 export const getLaravelBooks = async (
   page: number = 1
 ): Promise<ApiResponse> => {
@@ -152,7 +154,7 @@ export const getLaravelBooks = async (
   return laravelbooks;
 };
 
-/* jQueryの取得 */
+/* jQueryの取得 
 export const getJqueryBooks = async (
   page: number = 1
 ): Promise<ApiResponse> => {
@@ -166,7 +168,7 @@ export const getJqueryBooks = async (
   return jquerybooks;
 };
 
-/* Railsの取得 */
+/* Railsの取得 
 export const getRailsBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/v1/rails?page=${page}`,
@@ -177,3 +179,4 @@ export const getRailsBooks = async (page: number = 1): Promise<ApiResponse> => {
   const railsbooks = await res.json();
   return railsbooks;
 };
+*/
